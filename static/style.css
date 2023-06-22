@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    padding: 70px;
+    text-align: center;
+}
+.left {
+    padding: 50px;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: right;
+}
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* This is for the search bar */
+#search_img, #search {
+    /* This is for the search icon */
+    background: url("q.png");
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    background-size: 28px;
+    border-radius: 25px;
+    border: 1.5px solid rgba(0, 0, 0, 0.219);
+    padding-left: 35px; 
+    width: 550px;
+    height: 40px;
+    font-size: 17px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 272;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    color: #202124;
+    width: 170px;
+    padding: 0 16px;
+    min-width: 54px;
+    line-height: 27px;
+    height: 36px;
+    margin: 11px 4px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 3px;
+}
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+#one, #two, #three, #four {
+    width: 450px;
+}
+#btn {
+    background-color: #4285F4;
+    color: white;
+    border: 1px solid #4285F4;
+    /*padding: 8px;*/
+    border-radius: 3px;
+    margin: 3px 285px;
+}
